@@ -5,7 +5,7 @@ import cvzone
 
 model = YOLO("../Yolo/yolov8l.pt")
 
-cap = cv2.VideoCapture(r"D:\Videos\Cars Moving On Road Stock Footage - Free Download.mp4")
+cap = cv2.VideoCapture(r"Cars Moving On Road Stock Footage - Free Download.mp4")
 
 classes = {0: 'person', 1: 'bicycle', 2: 'car', 3: 'motorcycle', 4: 'airplane', 5: 'bus', 6: 'train', 7: 'truck',
            8: 'boat', 9: 'traffic light', 10: 'fire hydrant', 11: 'stop sign', 12: 'parking meter', 13: 'bench',
